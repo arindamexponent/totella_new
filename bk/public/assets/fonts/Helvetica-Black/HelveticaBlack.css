@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HelveticaBlack';
+    src: url('fonts/HelveticaBlack.eot');
+    src: url('fonts/HelveticaBlack.eot') format('embedded-opentype'),
+         url('fonts/HelveticaBlack.woff2') format('woff2'),
+         url('fonts/HelveticaBlack.woff') format('woff'),
+         url('fonts/HelveticaBlack.ttf') format('truetype'),
+         url('fonts/HelveticaBlack.svg#HelveticaBlack') format('svg');
+}

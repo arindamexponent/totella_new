@@ -1,0 +1,197 @@
+<template>
+<div>
+    
+
+    <div class="searchbx clearfix pull-right toglesearch">
+        
+            <div class="form-inline pull-right clearfix">
+               
+                <div class="form-group clearfix">
+                    <button class="btn btn-default thecategory topsrcatgsl" type="button" id="dLabel" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><!--{{selectedCatgTitle}}--></button>
+                    <div class="thecatemenulist dropdown-menu" aria-labelledby="dLabel">
+                        <ul class="list-unstyled catelistinfo clearfix" style="position: relative">
+
+                            <li class="catefilter">
+                                <div class="budylistradio">
+                                    <div class="form-group">
+                                        <input type="checkbox" id="" class="lcs_check" v-model="serviceCheck" @change="serviceOrOffer(serviceCheck)">
+                                        <span class="swipeChk">
+                                            <span class="on">Service</span>
+                                            <span class="off">Offer</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <div class="loadingmenu" v-if="catgLoading">
+                                <span>
+                                    <i class="fa fa-spinner fa-spin animated"></i>
+                                </span>
+                            </div>
+                            <li v-for="catg in catgList" :key="catg.id">
+                                <h4>{{catg.title}}</h4>
+                                <ul>
+                                    <li v-for="catitem in catg.cat" :key="catitem.id">
+                                        <label>
+                                            <input type="radio" class="hidden searchcatg" :checked="catitem.id == catgId" @change="chooseCat(catitem.id, catitem.title)" name="cateselectmenu">
+                                            <div class="normsmchek">{{catitem.title}}</div>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+				 <div class="form-group">
+				 <input type="text"  v-model="searchitem" class="form-control" placeholder="I am looking for..." name="">
+                 <button  v-if="$store.state.savebuttonvisible" class="safesearchbtn" type="button" data-toggle="modal" data-target=".safesearchmodal">Save search</button>
+				 </div>
+				 <div class="form-group">
+                    <form @submit.prevent="submitSearch" autocomplete="off">
+                         <!-- <input type="text" class="form-control bgserch"   id="mainsearch"  placeholder="Que recherchez-vous?" name="">	 -->
+                             <vue-google-autocomplete id="mainsearch"   types="(cities)" classname="form-control bgserch" :country="geocode" placeholder="Que recherchez-vous?" v-on:placechanged="getAddressData">
+                    </vue-google-autocomplete>	
+                    </form>
+                </div>
+				 <div class="form-group distanceselect">
+				<select v-model="distance">
+				<option value="10">0 Mile</option>
+                <option value="10">10 Mile</option>
+                <option value="25">25 Mile</option>
+                  <option value="50">50 Mile</option>
+                <option value="100">100 Mile</option>
+                <option value="500">500 Mile</option>
+				</select>
+				 </div>
+                <button class="btn btn-warning" @click="submitSearch"><img src="assets/images/search.png" class="img-responsive"><!-- Rechercher --></button>
+            </div>
+			
+    </div>
+    </div>
+		
+</template>
+
+<script>
+import {HTTP, TOKEN, AUTH_DATA} from '../http';
+import { config } from '../config';
+import VueGoogleAutocomplete from 'vue-google-autocomplete';
+// import store from '../store';
+
+export default {
+    name: 'MainSearch',
+     components: {
+     VueGoogleAutocomplete
+   },
+    data () {
+        return {
+            serviceCheck: true,
+            catgLoading: false,
+            catgList: [],
+                geocode:[],
+                user:{},
+            searchitem: '',
+            catgId: '',
+            selectedCatgTitle: '',
+            city:"",
+            lat:"",
+            lng:"",
+            distance:10
+        }
+    },
+    created() {
+             this.user = JSON.parse(localStorage.getItem("tootellaUser"));
+         this.geocode.push(this.user.country_code);
+        this.serviceOrOffer(this.serviceCheck)
+
+    },
+    mounted(){
+        if(window.location.pathname == '/search'){
+            setTimeout(()=> {
+                this.searchitem= this.$route.query.search_query;
+                this.catgId = this.$route.query.catg_i;
+                this.selectedCatgTitle = this.$route.query.catg_t;
+                this.serviceCheck = this.$route.query.type == 'S' ? true : false;
+               // this.city=this.$route.query.city;
+               this.lat=this.$route.query.lat;
+               this.lng=this.$route.query.lat;
+               this.distance=this.$route.query.distance;
+            }, 1500);
+        } else {
+            this.searchitem= '';
+            this.catgId = '';
+        }
+    },
+    destroyed(){
+        this.searchitem= '';
+        this.catgId = '';
+    },
+    methods: {    
+        getAddressData:function(addressData, placeResultData, id)
+        {
+    //console.log(addressData);
+    this.lat=addressData.latitude;
+    this.lng=addressData.longitude
+     
+	  },
+        fetchSearchItemList(type){
+            this.catgLoading = true;
+            HTTP.post(`category-menu`, {type_flag: type})
+                .then(response => {
+                    // console.log(response.data)
+                    this.catgList = response.data;
+
+                    this.catgLoading = false;
+                })
+                .catch(e => {
+                    console.log(e);
+                    alert('Something went wrong!');
+
+                    this.catgLoading = false;
+                })
+        },
+        serviceOrOffer($data){
+            if($data == true){
+                // alert('S')
+                this.fetchSearchItemList('S')
+            } else {
+                // alert('O')
+                this.fetchSearchItemList('O')
+            }
+        },
+        chooseCat(id, title){
+            this.catgId = id;
+            this.selectedCatgTitle = title;
+        },
+        submitSearch(){
+            const makeUrl = `/search?search_query=${this.searchitem}&tok_id=${TOKEN}&catg_i=${this.catgId}&catg_t=${this.selectedCatgTitle}&type=${this.serviceCheck == true ? 'S' : 'O'}&lat=${this.lat}
+            &lng=${this.lng} &distance=${this.distance}
+            `;
+            window.location.href = makeUrl;
+        }
+    }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+.loadingmenu{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #f1f0f0eb;
+    width: 100%;
+    height: 80%;
+    z-index: 999;
+    text-align: center;
+    color: #ff8c3a;
+}
+.loadingmenu span{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>

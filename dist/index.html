@@ -1,0 +1,108 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><!--[if IE]><link rel="icon" href="/favicon.ico"><![endif]--><title>tottella-frontend</title><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/cropper/4.0.0/cropper.min.css><link rel=stylesheet type=text/css href=/assets/css/bootstrap.min.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css><link rel=stylesheet href=https://weareoutman.github.io/clockpicker/dist/jquery-clockpicker.min.css><link href=/assets/owl-carousel/owl.carousel.css rel=stylesheet><link rel=stylesheet href=/assets/css/xzoom.css><link rel=stylesheet type=text/css href=/assets/css/style.css><link rel=stylesheet type=text/css href=/assets/css/common.css><link rel=stylesheet type=text/css href=/assets/css/responsive.css><link as=style href=/css/app.32435cac.css rel=preload><link as=style href=/css/chunk-vendors.98c7fe72.css rel=preload><link as=script href=/js/app.e9a5e2cd.js rel=preload><link as=script href=/js/chunk-vendors.8bf00d3a.js rel=preload><link href=/css/chunk-0199.54271eb2.css rel=prefetch><link href=/css/chunk-0b2d.17660906.css rel=prefetch><link href=/css/chunk-0cc3.08ea9784.css rel=prefetch><link href=/css/chunk-1be6.d4a07a87.css rel=prefetch><link href=/css/chunk-2511.4cfa65c9.css rel=prefetch><link href=/css/chunk-2d88.0d4c6701.css rel=prefetch><link href=/css/chunk-3538.cc1737ef.css rel=prefetch><link href=/css/chunk-3e51.35a9fabd.css rel=prefetch><link href=/css/chunk-3ebd.69f29bf3.css rel=prefetch><link href=/css/chunk-4ee3.a45a6342.css rel=prefetch><link href=/css/chunk-5528.5e36b29e.css rel=prefetch><link href=/css/chunk-595b.9405a323.css rel=prefetch><link href=/css/chunk-5de9.af4b1792.css rel=prefetch><link href=/css/chunk-62e0.5f39c866.css rel=prefetch><link href=/css/chunk-7c8c.6a1bf992.css rel=prefetch><link href=/css/chunk-a7c2.50a69ca2.css rel=prefetch><link href=/css/chunk-ae7c.e8479716.css rel=prefetch><link href=/js/chunk-0199.fe965e31.js rel=prefetch><link href=/js/chunk-0b2d.dcfe774f.js rel=prefetch><link href=/js/chunk-0cc3.b7c55e30.js rel=prefetch><link href=/js/chunk-1be6.3b400c9e.js rel=prefetch><link href=/js/chunk-2511.971dc78e.js rel=prefetch><link href=/js/chunk-2d88.18b202b9.js rel=prefetch><link href=/js/chunk-3538.a0b51db0.js rel=prefetch><link href=/js/chunk-3e51.dadc8bac.js rel=prefetch><link href=/js/chunk-3ebd.51170c62.js rel=prefetch><link href=/js/chunk-4ee3.c5445cf2.js rel=prefetch><link href=/js/chunk-5528.4d45f2c1.js rel=prefetch><link href=/js/chunk-595b.aadab127.js rel=prefetch><link href=/js/chunk-5de9.db0f276a.js rel=prefetch><link href=/js/chunk-62e0.56611b34.js rel=prefetch><link href=/js/chunk-7c8c.c79ebf81.js rel=prefetch><link href=/js/chunk-8bc1.07b8f69e.js rel=prefetch><link href=/js/chunk-a7c2.e88b93fe.js rel=prefetch><link href=/js/chunk-ae7c.c2b52f8c.js rel=prefetch><link href=/css/chunk-vendors.98c7fe72.css rel=stylesheet><link href=/css/app.32435cac.css rel=stylesheet><link rel=icon type=image/png sizes=32x32 href=/img/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/img/icons/favicon-16x16.png><link rel=manifest href=/manifest.json><meta name=theme-color content=#4DBA87><meta name=apple-mobile-web-app-capable content=no><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=apple-mobile-web-app-title content=tottella-frontend><link rel=apple-touch-icon href=/img/icons/apple-touch-icon-152x152.png><link rel=mask-icon href=/img/icons/safari-pinned-tab.svg color=#4DBA87><meta name=msapplication-TileImage content=/img/icons/msapplication-icon-144x144.png><meta name=msapplication-TileColor content=#000000></head><body><noscript><strong>We're sorry but tottella-frontend doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/cropper/4.0.0/cropper.min.js></script><script src=https://weareoutman.github.io/clockpicker/dist/jquery-clockpicker.min.js async></script><script src=https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js async></script><script src=/assets/js/bootstrap.min.js></script><script src=/assets/scrollsmoth/popper.min.js></script><script src=/assets/scrollsmoth/jquery.easing.min.js></script><script src=/assets/scrollsmoth/scrolling-nav.js></script><script src=https://unpkg.com/sweetalert/dist/sweetalert.min.js></script><script src=/assets/js/jquery.mCustomScrollbar.concat.min.js></script><link rel=stylesheet href=/assets/css/jquery.mCustomScrollbar.css><script src=/assets/js/custom.js></script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnvEDytIpTsuWakFyg-2xxhU0s0mxJBoM&libraries=places"></script><script>// $("#bzoom").zoom({
+    //   //zoom_area_width: 300,
+    //     autoplay_interval :3000,
+    //     small_thumbs : 4,
+    //     autoplay : false
+    // });</script><script>$(document).ready(function(){ 
+        // $(".xzoom").xzoom();
+        $('.mainmenu .navbar-nav li').hover(
+          function(){ $(this).addClass('active').siblings().removeClass('active') },
+          //function(){ $('.loginmenu li').removeClass('active') }
+        )
+        $( ".mainmenu .navbar-nav li").mouseout(function() {
+          $(this).removeClass("active");
+        });
+      }); 
+      (function($){
+        $(window).on("load",function(){
+          
+          $("#content-1").mCustomScrollbar({
+            theme:"minimal"
+          });
+          
+        });
+      })(jQuery);</script><script>$(document).ready(function(){ 
+            // console.log($('body'));
+            // $('body').addClass('hello')
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+          } else {
+            $('.scrollup').fadeOut();
+          }
+        }); 			
+        $('.scrollup').click(function(){
+          $("html, body").animate({ scrollTop: 0 }, 600);
+          return false;
+        });
+
+        
+
+        if(sessionStorage.getItem('tooNotLoggedIn') == 1 && location.pathname.split('/')[1] != 'register-proffessional' && location.pathname.split('/')[1] != 'register-personal'){
+          setTimeout(function(){
+            $('#loginclick').trigger('click');
+          }, 500)
+        }
+        
+        $('#loginclick').on('click', function(){
+          $('#loginModal').addClass('loginopen');
+          $('#loginModal').after('<div class="modal-backdrop fade in" id="loginbackdrop"></div>')
+        });
+        $('#loginClose').on('click', function(){
+          $('#loginModal').removeClass('loginopen');
+          $('#loginbackdrop').remove();
+        });
+        
+
+      });</script><script src=assets/owl-carousel/owl.carousel.js></script><script>$(document).ready(function(){ 
+        $('#deals, #imobiler, #vehicles').owlCarousel({
+          loop:true,
+          autoplay:true,
+          margin:16,
+          nav:true,
+          navText:false,
+          dots:false,
+          responsive:{
+            0:{
+              margin:8,
+              items:1
+            },
+            500:{
+              margin:8,
+              items:2
+            },
+            800:{
+              margin:8,
+              items:3
+            },
+            1024:{
+              items:4
+            }
+          }
+        });
+        $('#requestlist').owlCarousel({
+          loop:true,
+          autoplay:true,
+          margin:16,
+          nav:true,
+          navText:false,
+          dots:false,
+          responsive:{
+            0:{
+              margin:8,
+              items:2
+            },
+            500:{
+              margin:8,
+              items:3
+            },
+            800:{
+              margin:8,
+              items:4
+            },
+            1024:{
+              items:5
+            }
+          }
+        })
+      });</script><script></script><script src=/js/chunk-vendors.8bf00d3a.js></script><script src=/js/app.e9a5e2cd.js></script></body></html>

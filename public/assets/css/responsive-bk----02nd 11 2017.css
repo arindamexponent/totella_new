@@ -1,0 +1,1836 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width:1278px) {
+
+.txt51,
+.findtitle {
+    font-size:36px;
+}
+.txt51 strong {
+    font-size:28px;
+}
+.textcol {
+    padding-top: 26px;
+}
+.txt28 {
+    font-size:26px;
+}
+
+.slidemeubtn {
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    border-radius: 0;
+    right: 0;
+}
+.showMobilenav .overlay {
+    visibility: visible;
+    opacity: 1;
+    display:block;
+}
+.showMobilenav .mainmenu {
+    right: 0;
+}   
+.showMobilenav {
+    overflow: hidden;
+}
+.mainmenu {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: #ff8c3a;
+    text-align: center;
+    width: 220px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    right: -300px;
+    overflow:auto;
+}
+.mainmenu .navbar-nav>li>a {
+    padding: 16px 14px;
+}
+.showMobilenav .mainmenu ul {
+    float: none !important;
+    width: 100%;
+    margin: 0;
+}
+header .mainmenu  .navbar-nav>li>a {
+    padding:12px 15px !important;
+    font-size: 12px;
+    text-align: left;
+    color: #ffffff !important;
+    font-weight: normal;
+    border-bottom: 1px solid #dedede;
+}
+header .navbar-nav>li:hover>a {
+    color: #ffffff;
+    background-color: #777;
+    margin: 0;
+}
+
+header .rightmenu .navbar-nav>li>a {
+    border:0 none;
+}
+
+.navbar-nav.navbar-right>li>a::after {
+    display:none;
+}
+
+.mainmenu .navbar-nav>li>a::after {
+    top: inherit;
+    left: 0;
+    position: absolute;
+    bottom: -1px;
+    background-color:#ffffff !important;
+}
+.mainmenu .navbar-nav>li>a {
+    padding-left:0;
+    padding-right:0;
+}
+.mainmenu .navbar-nav>li>a {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/*end menu collaps*/ 
+span.ico {
+    top:0px;
+}
+.loginmenu.navbar-nav.navbar-right>li:hover>a {
+    color: #2c2c2c;
+}
+/*end max 1023px*/ 
+}
+
+
+@media (max-width:767px) {
+.nameavatar {
+    font-size: 25px;
+}    
+.designation {
+    font-size:17px;
+}
+.addresspro p {
+    font-size: 13px;
+    margin: 11px 0 0;
+}
+.procolright, .serrightCol,    
+.procolleft, .searColLeft {
+    width:100%;
+}
+.logo {
+    height: 50px;
+    float: none !important;
+}
+.scrollup {
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    background-size: 100% auto;
+}
+.ffivelist .fgrid_one,
+.ffivelist .fgrid_two,
+.ffivelist .fgrid_three,
+.ffivelist .fgrid_five {
+    width:100%;
+}
+.copyright {
+    margin-top:0;
+    text-align:center;
+    width:100%;
+}
+.rqbox figure img,
+.prodesk figure img {
+    width: 100%;
+}
+
+/*end all phone 767px*/	
+}
+@media (max-width:639px) {
+.listOffer>li {
+    box-shadow: none;
+    border-color: transparent;
+}    
+ .whishlistof {
+    right: 5px;
+    top: 8px;
+    font-size: 16px;
+}   
+.loftitle {
+    font-size:13px;
+    margin-bottom:5px;
+}
+span.addate.block {
+    margin-bottom: 5px;
+}
+.pricebig {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.oftime {
+    font-size: 13px;;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+header .container {
+    padding: 0;
+}
+ .logo {
+    height: 50px;
+    float: none !important;
+    margin: 0 0 0 10px;
+    max-width: 220px;
+}
+
+
+
+.txt51,
+.findtitle {
+    font-size:30px;
+}
+.txt51 strong {
+    font-size:24px;
+}
+.textcol {
+    padding-top: 20px;
+}
+.txt28 {
+    font-size:20px;
+}
+.infolist {
+    margin: 0;
+    padding:20px 10px;
+}
+.infolist li {
+    margin:6px 0;
+}
+.proheading {
+    font-size: 26px;
+    margin: 17px 0 0;
+}
+.requestlist.row, .deaslslist.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.requestlist [class*=col], .deaslslist [class*=col] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.requestlist .onegrid {
+    /* width: 100%;
+    float: none;
+    padding-left: 0;
+    padding-right: 0; */
+}
+.rqbox {
+    text-align:center;
+    margin:24px 0;
+}
+.rqbox figure {
+    display:inline-block;
+}
+
+
+/* max-wdth 639px*/
+}
+
+@media (max-width:479px) {
+.breadcrumb>li a {
+    font-size:12px;
+}
+.breadcrumb>li+li:before {
+    padding:0 6px;
+}
+.breadcrumb>li {
+    font-size:13px;
+}
+.loginmenu {
+    width: 100%;
+    background-color: #ff8c3a;
+    margin: 0;
+    float: none;
+    text-align: center;
+}
+.navbar-nav.navbar-right>li {
+    float: none;
+    display: inline-block;
+    padding: 6px 0;
+}
+.navbar-nav.navbar-right>li>a {
+    border-bottom: 0 none;
+    color: #ffffff;
+    border-left-color: #fff;
+}
+.paginationew  .pagination > li > a, .paginationew  .pagination > li > span {
+    padding:5px 12px;
+}
+.onvxs {
+    display:none;
+}
+.oflg {
+    display:block;
+}
+.chooselocation_mobile {
+    display:block !important;
+}
+.infolist {
+    display:none;
+}
+.proheading {
+    float: none !important;
+}
+.seeallcat {
+    margin: 9px 0 0;
+    float: none !important;
+}
+.proprice {
+    margin-bottom:0;
+}
+.withnewselect .form-group {
+    margin-left: 0;
+}
+.nav-tabs>li,
+.tabbox .nav-tabs {
+    width: 100%;
+    float: none !important;
+}
+.sortbybtn {
+    margin: 10px auto;
+    width: 79%;
+    float: none !important;
+}
+.listOffer.listwithico>li {
+    padding: 0 25px 10px 70px;
+}
+.listOffer.listwithico>li figure {
+    left: 0;
+    top: 0;
+}
+.prodct_ico {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.prodct_ico img {
+    max-height: 28px;
+    max-width: 25px;
+}
+.rightmnu {
+    width: 100%;
+}
+.rightmnu .menuinfo li a {
+    padding: 8px 8px;
+}
+.rightmnu .avmenu {
+    margin: 1px 0 10px 5px;
+}
+.dbcontitle {
+    margin:15px 0;
+}
+.btnevnt,
+.btndelete, .btnedit {
+    float: left;
+    margin-right: 20px;
+    margin-top:5px;
+}
+.btnevnt {
+    margin-top:10px;
+}
+.paginationcs a {
+    padding: 3px 7px;
+    font-size: 14px;
+    margin: 0 0 0 -1px;
+    font-size: 12px;
+}
+.paginationcs .bigpagi {
+    padding: 6px 12px;
+    font-size: 14px;
+    margin: -5px 0px 0 0;
+}
+.paginationcs span {
+    padding: 2px 3px 13px;
+    font-size: 20px;
+    line-height: 5px;
+}
+.listOffer>li {
+    box-shadow:none;
+    border:0 none;
+}
+.tabbox .menubrd {
+    padding:0;
+}
+.showvxs {
+    display:block !important;
+    text-align:center;
+}
+.loginmenu {
+    display:none;
+}
+.twsesbtn {
+    margin-top:10px;
+}
+.innerPage .slidemeubtn {
+    top: 8px;
+}
+
+
+
+.withsearchbx .avmenu {
+    margin:11px 58px 0 0;
+}
+.wtithgeyddkbg .slidemeubtn {
+    top: 11px;
+}
+
+.coutfig {
+    width: 16px;
+    height: 13px;
+    right: 2px;
+    bottom: 2px;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.cloffer .listOffer li figure {
+    width: 30%;
+    float: left;
+    padding-left:0;
+}
+.cloffer .loftitle {
+    margin-top:0;
+}
+.cloffer .whishlistof {
+    right: 13px;
+    top: 3px;
+}
+.cloffer .listOffer li .cont {
+    width: 70%;
+    float: left;
+}
+.rightpanel .prodesk {
+    width: 100%;
+    float: left;
+    margin: 10px;
+}
+.offvxs {
+    display:none;
+}
+
+.searchbx .serbxico {
+    display: block;
+    float: none !important;
+}
+.searchbx .form-inline {
+    margin: 0;
+    float: none !important;
+    width: 100%;
+    padding: 10px;
+    text-align:center;
+}
+.searchbx .serbxico img {
+    max-height: 59px;
+    margin: auto;
+}
+.searchbx .form-inline .bgdate {
+    width:100%;
+}
+.searchbx .form-inline .bgserch {
+    width:100%;
+}
+.searchbx .form-control {
+    padding-left: 27px;
+    background-size: 13px !important;
+    background-position: 8px center !important;
+}
+.searchbx .btn-warning {
+    margin:0;
+    border-radius:4px;
+}
+.searchbx .form-group {
+    margin-bottom: 8px;
+}
+.searchbx {
+    width: 100%;
+    margin: 0;
+}
+.srchico img {
+    max-height: 46px;
+    margin: 7px 10px;
+}
+.profileavatar {
+    width: 130px;
+    height: 130px;
+    margin-top: -60px;
+}
+.prtopbtn .dropdown, .prtopbtn .profieleditbtn {
+    float: none !important;
+    display: inline-block;
+}
+.prtopbtn {
+    position: relative;
+    margin: 10px 0;
+    text-align: center;
+}
+.addresspro p span:first-child {
+    display: block;
+    margin: 0 0 7px;
+}
+.addresspro p img {
+    max-height: 14px;
+}
+.panel_info {
+    margin-bottom:10px;
+}
+.profilepage .listOffer li figure {
+    width:auto;
+    display:inline-block;
+}
+.twobtnsec {
+    width: 100%;
+}
+.twobtnsec .btnevnt {
+    float: left !important;
+}
+.profilepage .oftime {
+    margin: 8px 0 0;
+    display: block;
+}
+span.textwcicon.text-muted {
+    margin:10px 4px 20px 0;
+    display: inline-block;
+}
+span.withbadge_ico.relative {
+    width: auto;
+    display: inline-block;
+}
+.btnnewedit {
+    margin: 0;
+    width: 23px;
+    height: 23px;
+    font-size: 12px;
+    line-height: 23px;
+    float: right !important;
+    position: relative;
+    right: -10px;
+}
+span.textwcicon.text-muted img {
+    max-height: 15px;
+}
+.modaleditprofile .modal-content {
+    padding: 0 23px 23px;
+}
+.changephto {
+    width: 30px;
+    height: 30px;
+    padding: 8px 7px;
+    right: -37px;
+    margin-top: -31px;
+}
+.procolleft {
+    padding-top: 20px;
+}
+
+
+
+.catbx {
+    font-size:14px;
+}
+.titelp {
+    font-size: 23px;
+    margin: 14px 0;
+}
+.catmenu .titelp {
+    margin-bottom: 7px;
+}
+.row_10>[class*=col] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.row_10 {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.sprD .panel-body {
+    padding: 8px;
+}
+.titlesprD {
+    font-size: 13px;
+    margin: 1px 0 6px;
+}
+.sprD .txt12,
+.sprDtag {
+    margin-bottom:8px;
+}
+
+
+
+
+.productDinfo .prDdesk {
+    font-size: 13px;
+    padding: 10px;
+}
+.prDtitel {
+    font-size: 13px;
+    margin: 5px 0;
+}
+.listsm li {
+    font-size: 12px;
+    width: 100%;
+}
+.contDcol {
+    width: 100%;
+    padding-top: 20px;
+}
+.imgDcol {
+    width: 100%;
+}
+.mapDcol {
+    width:100%;
+}
+.detailpage .prDmap {
+    margin: 10px 0;
+    height: 150px;
+}
+.sortbybtn.true {
+    float: right !important;
+}
+.offrtlwrap .sortbybtn {
+    margin: 0;
+}
+.prDname {
+    font-size:20px;
+}
+.detailpage .prDname {
+    margin: 0 0 10px;
+}
+.smparaprd {
+    font-size: 13px;
+    padding: 8px 0;
+}
+.smparaprd span {
+    display: inline-block;
+    margin: 0 9px 0px 0;
+    width: 9px;
+}
+.sortbybtn {
+    width:66%;
+}
+/*small mobile 479px*/
+}
+
+@media only screen and (min-width:480px) and (max-width:639px) {
+.col-xs-md-6 {
+    width:50%;
+    float:left;
+}     
+.navbar-nav.navbar-right>li {
+    padding: 6px 0;
+    float:left;
+}
+.navbar-nav.navbar-right>li>a {
+
+}
+.loginmenu {
+    margin: 0;
+    float: right;
+}
+.loginmenu {
+    margin: 0;
+    position: absolute;
+    right: 57px;
+    top: 15px;
+}
+header {
+    border-bottom: 1px solid #ff8c3a;
+    padding-bottom: 3px;
+}
+.requestlist .onegrid {
+   /*  width: 50%;
+    float: left;
+    padding-left:5px;
+    padding-right:5px; */
+}
+.rqbox {
+    margin: 10px 0;
+}
+.requestlist [class*=col], .deaslslist [class*=col] {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+.threetxt span {
+    min-width: 32.61%;
+}
+.infolist li {
+    float: left;
+    width: 50%;
+    font-size: 13px;
+    padding-left: 18px;
+}
+.infolist li .iconl {
+    top: 1px;
+    width: 12px;
+    height: 12px;
+}
+.seeallcat {
+    margin-top:18px;
+}
+.deaslslist .proprice, 
+.deaslslist .protitel {
+    float: none !important;
+}
+
+
+
+.withnewselect::after {
+    clear:both;
+    content:"";
+    display:table;
+}
+.withnewselect .form-group {
+    margin-left: 0;
+    width: 50%;
+    float: left;
+}
+.sortbybtn {
+    margin:8px 0;
+}
+.tabbox .nav-tabs>li>a {
+    font-size: 12px;
+    padding: 12px 19px;
+}
+.sortbybtn span {
+    font-size:13px;
+}
+.prodct_ico {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.prodct_ico img {
+    max-height: 28px;
+    max-width: 25px;
+}
+.listOffer.listwithico>li figure {
+    left: 10px;
+    top: 7px;
+}
+.listOffer.listwithico>li {
+    padding: 0 24px 10px 79px;
+    box-shadow: none;
+    border: 0 none;
+}
+.innerPage .wtithgeybg .logo {
+    width: 184px;
+    float: left !important;
+}
+.wtithgeybg .slidemeubtn {
+    top: 8px;
+}
+.wtithgeybg .menuinfo li a {
+    padding: 11px 8px;
+}
+.avmenu {
+    margin:7px 61px 0 0;
+}
+.text-right.rightcont {
+    text-align:left;
+    margin-top:10px;
+}
+.leftdbmenucol {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+.searchbx .form-inline .form-group {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+.searchbx .serbxico {
+   display:none;
+}
+.withsearchbx .avmenu {
+    margin:11px 58px 0 0;
+}
+.wtithgeyddkbg .slidemeubtn {
+    top: 11px;
+}
+.searchbx .form-inline {
+    margin:10px;
+    float: left !important;
+}
+.searchbx .serbxico img {
+    max-height: 39px;
+}
+.cloffer .listOffer li figure {
+    width: 30%;
+    float: left;
+}
+.cloffer .loftitle {
+    margin-top:0;
+}
+.cloffer .whishlistof {
+    right: 13px;
+    top: 3px;
+}
+.cloffer .listOffer li .cont {
+    width: 70%;
+    float: left;
+}
+.rightpanel .prodesk {
+    width:45.2%;
+    float: left;
+    margin: 10px;
+}
+.searchbx .form-inline .bgdate {
+    width:136px;
+}
+.searchbx .form-inline .bgserch {
+    width:140px;
+}
+.searchbx .form-control {
+    padding-left: 27px;
+    background-size: 13px !important;
+    background-position: 8px center !important;
+}
+
+.searchbx {
+    width: 371px;
+    margin: 0;
+}
+
+
+
+.clinfocol {
+    float: left;
+    width: 33.333%;
+}
+
+.profilepage .listOffer li figure {
+    width: 23%;
+    float: left;
+    padding-left: 0;
+}
+.profilepage .listOffer li .cont {
+    width: 77%;
+    float: left;
+    padding-right: 0;
+}
+span.withbadge_ico.relative {
+    margin-right: 20px;
+}
+.profilepage .oftime {
+    margin-right: 4px;
+    display: block;
+}
+span.textwcicon.text-muted {
+    margin: 0 4px;
+}
+.panel_info h4 {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.txtbig {
+    font-size: 22px;
+}
+.txtsm {
+    font-size:13px;
+}
+.infimg img {
+    max-height: 33px;
+}
+.infimg .badge {
+    font-size: 10px;
+    line-height: 16px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+}
+.panel_info {
+    padding:10px;
+}
+.twobtnsec {
+    float:left;
+    width:100%;
+}
+.infimg sub {
+    right: -7px;
+    top: -3px;
+}
+.withbadge_ico img {
+    max-height: 15px;
+}
+span.textwcicon.text-muted img {
+    max-height: 13px;
+}
+.btnnewedit {
+    float: none !important;
+    margin: 7px 0 0;
+}
+.profileavatar {
+    width: 161px;
+    height: 161px;
+    margin-top: -96px;
+}
+.catbx {
+    font-size:14px;
+}
+.catbx strong {
+    padding: 0 0 0 10px;
+}
+.catbx img {
+    max-width: 97px;
+}
+
+.catbx {
+    font-size:14px;
+}
+.titelp {
+    font-size: 32px;
+    margin: 20px 0;
+}
+.catmenu .titelp {
+    margin-bottom: 14px;
+}
+.row_10>[class*=col] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.row_10 {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.sprD .panel-body {
+    padding: 8px;
+}
+.titlesprD {
+    font-size: 13px;
+    margin: 1px 0 6px;
+}
+.sprD .txt12,
+.sprDtag {
+    margin-bottom:8px;
+}
+
+
+
+.productDinfo .prDdesk {
+    font-size: 13px;
+    padding: 10px;
+}
+.prDtitel {
+    font-size: 17px;
+    margin: 5px 0;
+}
+.listsm li {
+    font-size:13px;
+}
+.contDcol {
+    width: 100%;
+    padding-top: 20px;
+}
+.imgDcol {
+    width: 100%;
+}
+.mapDcol {
+    width:100%;
+}
+.detailpage .prDmap {
+    margin: 10px 0;
+    height: 150px;
+}
+.sortbybtn.true {
+    float: right !important;
+}
+.offrtlwrap .sortbybtn {
+    margin: 0;
+}
+.prDname {
+    font-size:26px;
+}
+/*480px */
+}
+@media only screen and (min-width:640px) and (max-width:767px) {
+.catbx img {
+    max-width: 97px;
+}    
+.col-xs-lg-6 {
+    width:50%;
+    float:left;
+}    
+.navbar-nav.navbar-right>li {
+    padding: 6px 0;
+    float:left;
+}
+.navbar-nav.navbar-right>li>a {
+
+}
+.loginmenu {
+    margin: 0;
+    float: right;
+}
+.loginmenu {
+    margin: 0;
+    position: absolute;
+    right: 57px;
+    top: 9px;
+}
+header {
+    border-bottom: 1px solid #ff8c3a;
+    padding-bottom: 3px;
+}
+.requestlist .onegrid {
+   /*  width: 33.333%;
+    float: left;
+    padding-left:5px;
+    padding-right:5px; */
+}
+.rqbox figure {
+    height: 113px;
+}
+.rqbox {
+    margin: 10px 0;
+}
+.requestlist [class*=col], .deaslslist [class*=col] {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+.requestlist.row, .deaslslist.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.txt51,
+.findtitle {
+    font-size:32px;
+}
+.txt51 strong {
+    font-size:26px;
+}
+.textcol {
+    padding-top: 22px;
+}
+.txt28 {
+    font-size:22px;
+}
+.infolist {
+    margin: 0;
+    padding:20px 10px;
+}
+.infolist li {
+    margin: 6px 0;
+    width: 33.33%;
+    float: left;
+    font-size: 12px;
+    padding-left: 18px;
+}
+.infolist li .iconl {
+    top: 1px;
+    width: 12px;
+    height: 12px;
+}
+.proheading {
+    font-size: 26px;
+    margin: 17px 0 0;
+}
+.ffivelist .fgrid_two, .ffivelist .fgrid_three, .ffivelist .fgrid_five {
+    width: 25%;
+}
+.ftitle {
+    font-size: 13px;
+}
+.fmenu li a {
+    font-size:12px;
+}
+.seeallcat {
+    margin-top:18px;
+}
+.withnewselect::after {
+    clear:both;
+    content:"";
+    display:table;
+}
+.withnewselect .form-group {
+    margin-left: 0;
+    width: 50%;
+    float: left;
+}
+.sortbybtn {
+    margin:8px 0;
+}
+.tabbox .nav-tabs>li>a {
+    font-size: 12px;
+    padding: 12px 19px;
+}
+.sortbybtn span {
+    font-size:13px;
+}
+.innerPage .wtithgeybg .logo {
+    width: 224px;
+    float:left !important;
+}
+.avmenu {
+    margin:10px 60px 0 0;
+}
+.wtithgeybg .menuinfo li a {
+    padding: 17px 8px;
+}
+.wtithgeybg .slidemeubtn {
+    top: 12px;
+}
+.leftdbmenucol {
+    width: 60%;
+    margin: 20px auto;
+}
+.text-right.rightcont {
+    text-align: left;
+    margin: 20px 0 0;
+}
+
+.prodct_ico {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.prodct_ico img {
+    max-height: 28px;
+    max-width: 25px;
+}
+.listOffer.listwithico>li figure {
+    left: 0;
+    top: 0;
+}
+.listOffer.listwithico>li {
+    padding:0 24px 10px 70px;
+    box-shadow: none;
+    border: 0 none;
+}
+.whishlistof {
+    right:3px;
+}
+.searchbx .form-inline .form-group {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+.searchbx .serbxico {
+    padding: 0;
+}
+.withsearchbx .avmenu {
+    margin: 6px 40px 0 0;
+}
+.searchbx .form-inline {
+    margin: 0 0 0 13px;
+    float: left !important;
+}
+.searchbx .serbxico img {
+    max-height: 39px;
+}
+.cloffer .listOffer li figure {
+    width: 30%;
+    float: left;
+}
+.cloffer .loftitle {
+    margin-top:0;
+}
+.cloffer .whishlistof {
+    right: 13px;
+    top: 3px;
+}
+.cloffer .listOffer li .cont {
+    width: 70%;
+    float: left;
+}
+.rightpanel .prodesk {
+    width: 46.5%;
+    float: left;
+    margin: 10px;
+}
+.withloginlink .logo a img {
+    max-height: 38px;
+}
+
+
+.clinfocol {
+    float: left;
+    width: 33.333%;
+}
+
+.profilepage .listOffer li figure {
+    width: 19%;
+    float:left;
+}
+.profilepage .listOffer li .cont {
+    width: 81%;
+    float:left;
+}
+.profilepage .oftime {
+    margin-right: 4px;
+}
+span.textwcicon.text-muted {
+    margin: 0 4px;
+}
+.panel_info h4 {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.txtbig {
+    font-size: 22px;
+}
+.txtsm {
+    font-size:13px;
+}
+.infimg img {
+    max-height: 33px;
+}
+.infimg .badge {
+    font-size: 10px;
+    line-height: 16px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+}
+.panel_info {
+    padding:10px;
+}
+.twobtnsec {
+    float:left;
+    width:100%;
+}
+.modaleditprofile .modal-md {
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.productDinfo .prDdesk {
+    font-size: 13px;
+    padding: 10px;
+}
+.prDtitel {
+    font-size: 17px;
+    margin: 5px 0;
+}
+.listsm li {
+    font-size:13px;
+}
+.contDcol {
+    width: 60%;
+    float:left;
+}
+.imgDcol {
+    width: 40%;
+    float:left;
+}
+.mapDcol {
+    width:100%;
+    float:left;
+}
+.detailpage .prDmap {
+    margin: 10px 0;
+    height: 150px;
+}
+.sortbybtn.true {
+    float: right !important;
+}
+.offrtlwrap .sortbybtn {
+    margin: 0;
+}
+.prDname {
+    font-size:26px;
+}
+/*big mobile iphone 6, 7...  640px*/
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+.col-sm-2 {
+    width: 16.66666667%;
+}
+.col-sm-3 {
+    width: 25%;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+}
+.col-sm-5 {
+    width: 41.66666667%;
+}
+.col-sm-6 {
+    width: 50%;
+}
+.col-sm-7 {
+    width: 58.33333333%;
+}
+.col-sm-9 {
+    width: 75%;
+}
+.col-sm-10 {
+    width: 83.33333333%;
+}    
+.col-sm-8 {
+    width: 66.66666667%;
+}    
+.container {
+    width: 770px;
+    position:relative;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 16px;
+    margin-bottom: 7px;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.slidemeubtn {
+    margin: 12px 39px 0 0;
+    position: absolute;
+}  
+.mainmenu .navbar-nav>li {
+    float: none;
+} 
+.scrollup {
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    background-size: 100% auto;
+}
+.navbar-nav.navbar-right>li {
+    padding: 26px 0;
+}
+.loginmenu {
+    margin: 0 73px 0 0;
+}
+.infolist li {
+    font-size:13px;
+}
+.infolist li .iconl {
+    width: 13px;
+    height: 13px;
+}
+.proheading {
+    font-size: 28px;
+    margin:18px 0 2px;
+}
+.requestlist [class*=col], .deaslslist [class*=col] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.requestlist.row, .deaslslist.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.requestlist .onegrid {
+    /* padding-left: 5px;
+    padding-right: 5px; */
+}
+.rqbox figure {
+    height: 88px;
+}
+.icobg>span {
+    width:50px;
+    height:50px;
+}
+.icobg>span span img {
+    max-width: 22px;
+}
+.rqbox p {
+    font-size: 12px;
+    padding: 10px 5px;
+}
+.protitel {
+    font-size: 13px;
+    float: none !important;
+}
+.proprice {
+    font-size: 14px;
+    float: none !important;
+    margin: 0 0 3px;
+}
+.smalltxt {
+    font-size: 11px;
+
+}
+
+.categoryname {
+    font-size: 12px;
+    padding: 7px 0;
+    margin: 4px 0 0;
+}
+.padlr10 {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.tabgs span {
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 12px;
+}
+.ftitle {
+    font-size:14px;
+}
+.fmenu li a {
+    font-size: 12px;
+    padding: 3px 0;
+}
+.fgrid_five {
+    width: 11%;
+}
+.ffivelist .fgrid_one {
+    padding-right: 20px;
+}
+.fgrid_two {
+    width: 19%;
+}
+.fgrid_three {
+    width: 22%;
+}
+.langf select {
+    padding-right:29px;
+}
+.ourapptxt a, .fsocial a {
+    display: inline-block;
+    margin: 0 1px 0 0;
+    width: 46px;
+}
+.threetxt span {
+    min-width: auto;
+    margin: 0 4px;
+}
+.seeallcat {
+    margin-top:22px;
+}
+.infolist {
+    padding: 47px 17px 27px;
+}
+.tabbox .nav-tabs>li>a {
+    font-size: 13px;
+    padding: 13px 10px;
+}
+.sortbybtn {
+    margin: 10px;
+    float: left !important;
+}
+.withnewselect select.form-control {
+    font-size:14px;
+}
+.prodct_ico {
+    width: 112px;
+    height: 106px;
+}
+.listOffer.listwithico>li {
+    padding: 6px 31px 11px 135px;
+}
+.listOffer.listwithico>li figure {
+    left:11px;
+}
+.whishlistof {
+    position: absolute;
+    right: 11px;
+    top: 8px;
+    font-size: 16px;
+}
+.avmenu {
+    margin: 17px 80px 0 9px;
+}
+.menuinfo li a {
+    padding: 24px 8px;
+}
+.withsearchbx .avmenu {
+    margin: 19px 70px 0 0;
+}
+.searchbx .serbxico {
+    padding: 0;
+}
+.searchbx .form-inline {
+    margin: 11px 0;
+}
+
+
+.profilepage .listOffer li figure {
+    width: 27%;
+}
+.profilepage .listOffer li .cont {
+    width: 73%;
+}
+.profilepage .oftime {
+    margin: 0 4px 10px;
+    display: block;
+}
+
+span.textwcicon.text-muted {
+    margin: 0 4px;
+}
+.panel_info h4 {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.txtbig {
+    font-size: 22px;
+}
+.txtsm {
+    font-size:13px;
+}
+.infimg img {
+    max-height: 33px;
+}
+.infimg .badge {
+    font-size: 10px;
+    line-height: 16px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+}
+.panel_info {
+    padding:10px;
+}
+.twobtnsec {
+    float:left;
+    width:100%;
+}
+
+
+
+
+.prDname {
+    font-size:30px;
+}
+.threeicolist>li {
+    margin-left:53px;
+}
+.bzoom_thumb_image {
+    width: 261px !important;
+    height: auto !important;
+}
+.bzoom .bzoom_zoom_area {
+    width: 400px !important;
+    left: 280px !important;
+}
+
+.bzoom .bzoom_zoom_area div {
+    width: 100% !important;
+    height:260px !important;
+}
+.bzoom_wrap .bzoom_small_thumbs {
+    top: 211px !important;
+    width:261px !important;
+}
+.bzoom_wrap .bzoom_small_thumbs>ul {
+    width:100% !important;
+}
+
+
+.photogallery .bzoom_wrap .bzoom_small_thumbs li img {
+    width: 55px !important;
+    height: 50px !important;
+}
+.photogallery {
+    min-height: 319px;
+}
+.bzoom_wrap .bzoom_magnifier div {
+    width: 140px !important;
+    display: block !important;
+    height: 110px !important;
+}
+.catbx {
+    font-size:14px;
+}
+.titelp {
+    font-size: 32px;
+    margin: 20px 0;
+}
+.catmenu .titelp {
+    margin-bottom: 14px;
+}
+.row_10>[class*=col] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.row_10 {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.sprD .panel-body {
+    padding: 8px;
+}
+.titlesprD {
+    font-size: 13px;
+    margin: 1px 0 6px;
+}
+.sprD .txt12,
+.sprDtag {
+    margin-bottom:8px;
+}
+.contDcol {
+    width: 60%;
+}
+.imgDcol {
+    width: 40%;
+}
+.mapDcol {
+    width:100%;
+}
+.detailpage .prDmap {
+    margin: 10px 0;
+    height: 150px;
+}
+.sortbybtn.true {
+    float: right !important;
+}
+.offrtlwrap .sortbybtn {
+    margin: 0;
+}
+/*end ipad portraight 768px*/	
+}
+
+@media only screen and (min-width:1024px) and (max-width:1278px) {
+	.seeallcat {
+		margin-top:22px;
+	}
+	.h1, .h2, .h3, h1, h2, h3 {
+		margin-top: 16px;
+		margin-bottom: 7px;
+	}
+	.h4, .h5, .h6, h4, h5, h6 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.slidemeubtn {
+		margin: 12px 39px 0 0;
+		position: absolute;
+	}  
+	.mainmenu .navbar-nav>li {
+		float: none;
+	} 
+	.scrollup {
+		width: 35px;
+		height: 35px;
+		right: 10px;
+		background-size: 100% auto;
+	}
+	.navbar-nav.navbar-right>li {
+		padding: 26px 0;
+	}
+	.loginmenu {
+		margin: 0 73px 0 0;
+	}
+	.infolist li {
+		font-size:13px;
+	}
+	.infolist li .iconl {
+		width: 13px;
+		height: 13px;
+	}
+	.proheading {
+		font-size: 28px;
+		margin:18px 0 2px;
+	}
+	.requestlist [class*=col], .deaslslist [class*=col] {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.requestlist.row, .deaslslist.row {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	.requestlist .onegrid {
+		/* padding-left: 5px;
+		padding-right: 5px; */
+	}
+	.rqbox figure {
+		height: 114px;
+	}
+	.icobg>span {
+		width:50px;
+		height:50px;
+	}
+	.icobg>span span img {
+		max-width: 22px;
+	}
+	.rqbox p {
+		font-size: 12px;
+		padding: 10px 5px;
+	}
+	.protitel {
+		font-size:12px;
+	}
+	.proprice {
+		font-size: 16px;
+	}
+	.smalltxt {
+		font-size: 11px;
+
+	}
+
+	.categoryname {
+		font-size: 12px;
+		padding: 7px 0;
+		margin: 4px 0 0;
+	}
+	.padlr10 {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	.tabgs span {
+		border-radius: 20px;
+		padding: 2px 10px;
+		font-size: 12px;
+	}
+	.ftitle {
+		font-size:14px;
+	}
+	.fmenu li a {
+		font-size: 12px;
+		padding: 3px 0;
+	}
+	.fgrid_five {
+		width: 11%;
+	}
+	.ffivelist .fgrid_one {
+		padding-right: 20px;
+	}
+	.fgrid_two {
+		width: 19%;
+	}
+	.fgrid_three {
+		width: 22%;
+	}
+	.langf select {
+		padding-right:29px;
+	}
+	.ourapptxt a, .fsocial a {
+		display: inline-block;
+		margin: 0 1px 0 0;
+		width: 66px;
+	}
+	.threetxt span {
+		min-width: 32.65%;
+	}
+	.loginmenu.navbar-nav.navbar-right>li:hover>a {
+		color: #2c2c2c;
+	}
+    .avmenu {
+        margin-right:60px;
+    }
+.adlist .btnedit {
+    margin-bottom: 5px;
+}
+.withsearchbx .avmenu {
+    margin: 19px 70px 0 0;
+}
+header .container {
+    position:relative;
+}
+.searchbx .form-inline {
+    margin: 10px 0;
+}
+.searchbx .serbxico {
+    padding: 0;
+}
+.searchbx .serbxico img {
+    max-height: 59px;
+}
+.profilepage .listOffer li figure {
+    width: 19%;
+}
+.profilepage .listOffer li .cont {
+    width: 81%;
+}
+.profilepage .oftime {
+    margin-right: 67px;
+}
+.panel_info h4 {
+    margin-bottom:20px;
+    font-size:16px;
+}
+.txtbig {
+    font-size: 26px;
+}
+.txtsm {
+    font-size:13px;
+}
+.infimg img {
+    max-height: 46px;
+}
+.infimg .badge {
+    font-size: 11px;
+    line-height: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.prDname {
+    font-size:30px;
+}
+.threeicolist>li {
+    margin-left:53px;
+}
+.bzoom_thumb_image {
+    width: 370px !important;
+    height: auto !important;
+}
+.bzoom .bzoom_zoom_area {
+    width: 380px !important;
+}
+
+.bzoom .bzoom_zoom_area div {
+    width: 100% !important;
+    height:350px !important;
+}
+.bzoom_wrap .bzoom_small_thumbs {
+    top: 300px !important;
+    width:370px !important;
+}
+.bzoom_wrap .bzoom_small_thumbs>ul {
+    width:100% !important;
+}
+
+
+.photogallery .bzoom_wrap .bzoom_small_thumbs li img {
+    width: 82px !important;
+    height: 60px !important;
+}
+.photogallery {
+    min-height: 419px;
+}
+
+/*end ipad landscape 1024px*/	
+}
+@media only screen and (min-width:1279px) and (max-width:1360px) {
+    .threetxt span {
+		min-width: 32%;
+	}
+    .mainmenu .navbar-nav>li>a {
+        padding-right:16px;
+        padding-left:16px;
+    }
+.searchbx {
+    width: 422px;
+    position: relative;
+}
+}
+@media (max-width:800px) {
+    .homeListSlider .owl-nav .owl-prev, 
+	.homeListSlider .owl-nav .owl-next{display:none;}
+	.homeListSlider .owl-carousel{padding:0;}
+}
+@media (max-width:599px) {
+   .creatAcForm{padding:34px 20px;}
+   .accountLogo{width:200px;}
+}
+
+@media only screen and (min-width:1365px) and (max-width:1550px) {
+    .searchbx {
+        width:480px;
+    }
+}

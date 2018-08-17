@@ -1,0 +1,929 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width:1278px) {
+
+.txt51,
+.findtitle {
+    font-size:36px;
+}
+.txt51 strong {
+    font-size:28px;
+}
+.textcol {
+    padding-top: 26px;
+}
+.txt28 {
+    font-size:26px;
+}
+
+.slidemeubtn {
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    border-radius: 0;
+    right: 0;
+}
+.showMobilenav .overlay {
+    visibility: visible;
+    opacity: 1;
+    display:block;
+}
+.showMobilenav .mainmenu {
+    right: 0;
+}   
+.showMobilenav {
+    overflow: hidden;
+}
+.mainmenu {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: #ff8c3a;
+    text-align: center;
+    width: 220px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    right: -300px;
+    overflow:auto;
+}
+.mainmenu .navbar-nav>li>a {
+    padding: 16px 14px;
+}
+.showMobilenav .mainmenu ul {
+    float: none !important;
+    width: 100%;
+    margin: 0;
+}
+header .mainmenu  .navbar-nav>li>a {
+    padding: 12px 15px;
+    font-size: 12px;
+    text-align: left;
+    color: #ffffff !important;
+    font-weight: normal;
+    border-bottom: 1px solid #dedede;
+}
+header .navbar-nav>li:hover>a {
+    color: #ffffff;
+    background-color: #777;
+    margin: 0;
+}
+
+header .rightmenu .navbar-nav>li>a {
+    border:0 none;
+}
+
+.navbar-nav.navbar-right>li>a::after {
+    display:none;
+}
+
+.mainmenu .navbar-nav>li>a::after {
+    top: inherit;
+    left: 0;
+    position: absolute;
+    bottom: -1px;
+    background-color:#ffffff !important;
+}
+.mainmenu .navbar-nav>li>a {
+    padding-left:0;
+    padding-right:0;
+}
+.mainmenu .navbar-nav>li>a {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/*end menu collaps*/ 
+span.ico {
+    top:0px;
+}
+.loginmenu.navbar-nav.navbar-right>li:hover>a {
+    color: #2c2c2c;
+}
+/*end max 1023px*/ 
+}
+
+
+@media (max-width:767px) {
+
+.logo {
+    height: 50px;
+    float: none !important;
+}
+.scrollup {
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    background-size: 100% auto;
+}
+.ffivelist .fgrid_one,
+.ffivelist .fgrid_two,
+.ffivelist .fgrid_three,
+.ffivelist .fgrid_five {
+    width:100%;
+}
+.copyright {
+    margin-top:0;
+    text-align:center;
+    width:100%;
+}
+.rqbox figure img,
+.prodesk figure img {
+    width: 100%;
+}
+
+/*end all phone 767px*/	
+}
+@media (max-width:639px) {
+ .whishlistof {
+    right: 5px;
+    top: 8px;
+    font-size: 16px;
+}   
+.loftitle {
+    font-size:13px;
+    margin-bottom:5px;
+}
+span.addate.block {
+    margin-bottom: 5px;
+}
+.pricebig {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.oftime {
+    font-size: 13px;;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+header .container {
+    padding: 0;
+}
+ .logo {
+    height: 50px;
+    float: none !important;
+    margin: 0 0 0 10px;
+    max-width: 220px;
+}
+
+
+
+.txt51,
+.findtitle {
+    font-size:30px;
+}
+.txt51 strong {
+    font-size:24px;
+}
+.textcol {
+    padding-top: 20px;
+}
+.txt28 {
+    font-size:20px;
+}
+.infolist {
+    margin: 0;
+    padding:20px 10px;
+}
+.infolist li {
+    margin:6px 0;
+}
+.proheading {
+    font-size: 26px;
+    margin: 17px 0 0;
+}
+.requestlist.row, .deaslslist.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.requestlist [class*=col], .deaslslist [class*=col] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.requestlist .onegrid {
+    /* width: 100%;
+    float: none;
+    padding-left: 0;
+    padding-right: 0; */
+}
+.rqbox {
+    text-align:center;
+    margin:24px 0;
+}
+.rqbox figure {
+    display:inline-block;
+}
+
+
+/* max-wdth 639px*/
+}
+
+@media (max-width:479px) {
+
+.loginmenu {
+    width: 100%;
+    background-color: #ff8c3a;
+    margin: 0;
+    float: none;
+    text-align: center;
+}
+.navbar-nav.navbar-right>li {
+    float: none;
+    display: inline-block;
+    padding: 6px 0;
+}
+.navbar-nav.navbar-right>li>a {
+    border-bottom: 0 none;
+    color: #ffffff;
+    border-left-color: #fff;
+}
+.paginationew  .pagination > li > a, .paginationew  .pagination > li > span {
+    padding:5px 12px;
+}
+.onvxs {
+    display:none;
+}
+.oflg {
+    display:block;
+}
+.chooselocation_mobile {
+    display:block !important;
+}
+.infolist {
+    display:none;
+}
+.proheading {
+    float: none !important;
+}
+.seeallcat {
+    margin: 9px 0 0;
+    float: none !important;
+}
+.proprice {
+    margin-bottom:0;
+}
+.withnewselect .form-group {
+    margin-left: 0;
+}
+.nav-tabs>li,
+.tabbox .nav-tabs {
+    width: 100%;
+    float: none !important;
+}
+.sortbybtn {
+    margin: 10px auto;
+    width: 79%;
+    float: none !important;
+}
+.listOffer.listwithico>li {
+    padding: 10px;
+}
+.listOffer.listwithico>li figure {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.prodct_ico {
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+}
+.rightmnu {
+    width: 100%;
+}
+.rightmnu .menuinfo li a {
+    padding: 8px 8px;
+}
+.rightmnu .avmenu {
+    margin: 1px 0 10px 5px;
+}
+.dbcontitle {
+    margin:15px 0;
+}
+.btnevnt,
+.btndelete, .btnedit {
+    float: left;
+    margin-right: 20px;
+    margin-top:5px;
+}
+.btnevnt {
+    margin-top:10px;
+}
+.paginationcs a {
+    padding: 3px 7px;
+    font-size: 14px;
+    margin: 0 0 0 -1px;
+    font-size: 12px;
+}
+.paginationcs .bigpagi {
+    padding: 6px 12px;
+    font-size: 14px;
+    margin: -5px 0px 0 0;
+}
+.paginationcs span {
+    padding: 2px 3px 13px;
+    font-size: 20px;
+    line-height: 5px;
+}
+/*small mobile 479px*/
+}
+
+@media only screen and (min-width:480px) and (max-width:639px) {
+.navbar-nav.navbar-right>li {
+    padding: 6px 0;
+    float:left;
+}
+.navbar-nav.navbar-right>li>a {
+
+}
+.loginmenu {
+    margin: 0;
+    float: right;
+}
+.loginmenu {
+    margin: 0;
+    position: absolute;
+    right: 57px;
+    top: 9px;
+}
+header {
+    border-bottom: 1px solid #ff8c3a;
+    padding-bottom: 3px;
+}
+.requestlist .onegrid {
+   /*  width: 50%;
+    float: left;
+    padding-left:5px;
+    padding-right:5px; */
+}
+.rqbox {
+    margin: 10px 0;
+}
+.requestlist [class*=col], .deaslslist [class*=col] {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+.threetxt span {
+    min-width: 32.61%;
+}
+.infolist li {
+    float: left;
+    width: 50%;
+    font-size: 13px;
+    padding-left: 18px;
+}
+.infolist li .iconl {
+    top: 1px;
+    width: 12px;
+    height: 12px;
+}
+.seeallcat {
+    margin-top:18px;
+}
+.deaslslist .proprice, 
+.deaslslist .protitel {
+    float: none !important;
+}
+
+
+
+.withnewselect::after {
+    clear:both;
+    content:"";
+    display:table;
+}
+.withnewselect .form-group {
+    margin-left: 0;
+    width: 50%;
+    float: left;
+}
+.sortbybtn {
+    margin:8px 0;
+}
+.tabbox .nav-tabs>li>a {
+    font-size: 12px;
+    padding: 12px 19px;
+}
+.sortbybtn span {
+    font-size:13px;
+}
+.prodct_ico {
+    width: 100px;
+    height: 110px;
+    border-radius: 20px;
+}
+.listOffer.listwithico>li figure {
+    left: 10px;
+    top: 7px;
+}
+.listOffer.listwithico>li {
+    padding: 4px 24px 10px 122px;
+}
+.innerPage .wtithgeybg .logo {
+    width: 184px;
+    float: left !important;
+}
+.wtithgeybg .slidemeubtn {
+    top: 8px;
+}
+.wtithgeybg .menuinfo li a {
+    padding: 11px 8px;
+}
+.avmenu {
+    margin:7px 61px 0 0;
+}
+.text-right.rightcont {
+    text-align:left;
+    margin-top:10px;
+}
+.leftdbmenucol {
+    width: 80%;
+    margin: 20px auto;
+}
+/*480px */
+}
+@media only screen and (min-width:640px) and (max-width:767px) {
+.navbar-nav.navbar-right>li {
+    padding: 6px 0;
+    float:left;
+}
+.navbar-nav.navbar-right>li>a {
+
+}
+.loginmenu {
+    margin: 0;
+    float: right;
+}
+.loginmenu {
+    margin: 0;
+    position: absolute;
+    right: 57px;
+    top: 9px;
+}
+header {
+    border-bottom: 1px solid #ff8c3a;
+    padding-bottom: 3px;
+}
+.requestlist .onegrid {
+   /*  width: 33.333%;
+    float: left;
+    padding-left:5px;
+    padding-right:5px; */
+}
+.rqbox figure {
+    height: 113px;
+}
+.rqbox {
+    margin: 10px 0;
+}
+.requestlist [class*=col], .deaslslist [class*=col] {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+.requestlist.row, .deaslslist.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.txt51,
+.findtitle {
+    font-size:32px;
+}
+.txt51 strong {
+    font-size:26px;
+}
+.textcol {
+    padding-top: 22px;
+}
+.txt28 {
+    font-size:22px;
+}
+.infolist {
+    margin: 0;
+    padding:20px 10px;
+}
+.infolist li {
+    margin: 6px 0;
+    width: 33.33%;
+    float: left;
+    font-size: 12px;
+    padding-left: 18px;
+}
+.infolist li .iconl {
+    top: 1px;
+    width: 12px;
+    height: 12px;
+}
+.proheading {
+    font-size: 26px;
+    margin: 17px 0 0;
+}
+.ffivelist .fgrid_two, .ffivelist .fgrid_three, .ffivelist .fgrid_five {
+    width: 25%;
+}
+.ftitle {
+    font-size: 13px;
+}
+.fmenu li a {
+    font-size:12px;
+}
+.seeallcat {
+    margin-top:18px;
+}
+.withnewselect::after {
+    clear:both;
+    content:"";
+    display:table;
+}
+.withnewselect .form-group {
+    margin-left: 0;
+    width: 50%;
+    float: left;
+}
+.sortbybtn {
+    margin:8px 0;
+}
+.tabbox .nav-tabs>li>a {
+    font-size: 12px;
+    padding: 12px 19px;
+}
+.sortbybtn span {
+    font-size:13px;
+}
+.innerPage .wtithgeybg .logo {
+    width: 224px;
+    float:left !important;
+}
+.avmenu {
+    margin:10px 60px 0 0;
+}
+.wtithgeybg .menuinfo li a {
+    padding: 17px 8px;
+}
+.wtithgeybg .slidemeubtn {
+    top: 12px;
+}
+.leftdbmenucol {
+    width: 60%;
+    margin: 20px auto;
+}
+.text-right.rightcont {
+    text-align: left;
+    margin: 20px 0 0;
+}
+/*big mobile iphone 6, 7...  640px*/
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+.col-sm-2 {
+    width: 16.66666667%;
+}
+.col-sm-3 {
+    width: 25%;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+}
+.col-sm-5 {
+    width: 41.66666667%;
+}
+.col-sm-6 {
+    width: 50%;
+}
+.col-sm-7 {
+    width: 58.33333333%;
+}
+.col-sm-9 {
+    width: 75%;
+}
+.col-sm-10 {
+    width: 83.33333333%;
+}    
+.col-sm-8 {
+    width: 66.66666667%;
+}    
+.container {
+    width: 770px;
+    position:relative;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 16px;
+    margin-bottom: 7px;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.slidemeubtn {
+    margin: 12px 39px 0 0;
+    position: absolute;
+}  
+.mainmenu .navbar-nav>li {
+    float: none;
+} 
+.scrollup {
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    background-size: 100% auto;
+}
+.navbar-nav.navbar-right>li {
+    padding: 26px 0;
+}
+.loginmenu {
+    margin: 0 73px 0 0;
+}
+.infolist li {
+    font-size:13px;
+}
+.infolist li .iconl {
+    width: 13px;
+    height: 13px;
+}
+.proheading {
+    font-size: 28px;
+    margin:18px 0 2px;
+}
+.requestlist [class*=col], .deaslslist [class*=col] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.requestlist.row, .deaslslist.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.requestlist .onegrid {
+    /* padding-left: 5px;
+    padding-right: 5px; */
+}
+.rqbox figure {
+    height: 88px;
+}
+.icobg>span {
+    width:50px;
+    height:50px;
+}
+.icobg>span span img {
+    max-width: 22px;
+}
+.rqbox p {
+    font-size: 12px;
+    padding: 10px 5px;
+}
+.protitel {
+    font-size: 13px;
+    float: none !important;
+}
+.proprice {
+    font-size: 14px;
+    float: none !important;
+    margin: 0 0 3px;
+}
+.smalltxt {
+    font-size: 11px;
+
+}
+
+.categoryname {
+    font-size: 12px;
+    padding: 7px 0;
+    margin: 4px 0 0;
+}
+.padlr10 {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.tabgs span {
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 12px;
+}
+.ftitle {
+    font-size:14px;
+}
+.fmenu li a {
+    font-size: 12px;
+    padding: 3px 0;
+}
+.fgrid_five {
+    width: 11%;
+}
+.ffivelist .fgrid_one {
+    padding-right: 20px;
+}
+.fgrid_two {
+    width: 19%;
+}
+.fgrid_three {
+    width: 22%;
+}
+.langf select {
+    padding-right:29px;
+}
+.ourapptxt a, .fsocial a {
+    display: inline-block;
+    margin: 0 1px 0 0;
+    width: 46px;
+}
+.threetxt span {
+    min-width: auto;
+    margin: 0 4px;
+}
+.seeallcat {
+    margin-top:22px;
+}
+.infolist {
+    padding: 47px 17px 27px;
+}
+.tabbox .nav-tabs>li>a {
+    font-size: 13px;
+    padding: 13px 10px;
+}
+.sortbybtn {
+    margin: 10px;
+    float: left !important;
+}
+.withnewselect select.form-control {
+    font-size:14px;
+}
+.prodct_ico {
+    width: 112px;
+    height: 106px;
+}
+.listOffer.listwithico>li {
+    padding: 6px 31px 11px 135px;
+}
+.listOffer.listwithico>li figure {
+    left:11px;
+}
+.whishlistof {
+    position: absolute;
+    right: 11px;
+    top: 8px;
+    font-size: 16px;
+}
+.avmenu {
+    margin: 17px 80px 0 9px;
+}
+.menuinfo li a {
+    padding: 24px 8px;
+}
+/*end ipad portraight 768px*/	
+}
+
+@media only screen and (min-width:1024px) and (max-width:1278px) {
+	.seeallcat {
+		margin-top:22px;
+	}
+	.h1, .h2, .h3, h1, h2, h3 {
+		margin-top: 16px;
+		margin-bottom: 7px;
+	}
+	.h4, .h5, .h6, h4, h5, h6 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.slidemeubtn {
+		margin: 12px 39px 0 0;
+		position: absolute;
+	}  
+	.mainmenu .navbar-nav>li {
+		float: none;
+	} 
+	.scrollup {
+		width: 35px;
+		height: 35px;
+		right: 10px;
+		background-size: 100% auto;
+	}
+	.navbar-nav.navbar-right>li {
+		padding: 26px 0;
+	}
+	.loginmenu {
+		margin: 0 43px 0 0;
+	}
+	.infolist li {
+		font-size:13px;
+	}
+	.infolist li .iconl {
+		width: 13px;
+		height: 13px;
+	}
+	.proheading {
+		font-size: 28px;
+		margin:18px 0 2px;
+	}
+	.requestlist [class*=col], .deaslslist [class*=col] {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.requestlist.row, .deaslslist.row {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	.requestlist .onegrid {
+		/* padding-left: 5px;
+		padding-right: 5px; */
+	}
+	.rqbox figure {
+		height: 114px;
+	}
+	.icobg>span {
+		width:50px;
+		height:50px;
+	}
+	.icobg>span span img {
+		max-width: 22px;
+	}
+	.rqbox p {
+		font-size: 12px;
+		padding: 10px 5px;
+	}
+	.protitel {
+		font-size:12px;
+	}
+	.proprice {
+		font-size: 16px;
+	}
+	.smalltxt {
+		font-size: 11px;
+
+	}
+
+	.categoryname {
+		font-size: 12px;
+		padding: 7px 0;
+		margin: 4px 0 0;
+	}
+	.padlr10 {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	.tabgs span {
+		border-radius: 20px;
+		padding: 2px 10px;
+		font-size: 12px;
+	}
+	.ftitle {
+		font-size:14px;
+	}
+	.fmenu li a {
+		font-size: 12px;
+		padding: 3px 0;
+	}
+	.fgrid_five {
+		width: 11%;
+	}
+	.ffivelist .fgrid_one {
+		padding-right: 20px;
+	}
+	.fgrid_two {
+		width: 19%;
+	}
+	.fgrid_three {
+		width: 22%;
+	}
+	.langf select {
+		padding-right:29px;
+	}
+	.ourapptxt a, .fsocial a {
+		display: inline-block;
+		margin: 0 1px 0 0;
+		width: 66px;
+	}
+	.threetxt span {
+		min-width: 32.65%;
+	}
+	.loginmenu.navbar-nav.navbar-right>li:hover>a {
+		color: #2c2c2c;
+	}
+    .avmenu {
+        margin-right:60px;
+    }
+.adlist .btnedit {
+    margin-bottom: 5px;
+}
+	/*end ipad landscape 1024px*/	
+}
+@media only screen and (min-width:1280px) and (max-width:1360px) {
+    .threetxt span {
+		min-width: 32%;
+	}
+    .mainmenu .navbar-nav>li>a {
+        padding-right:16px;
+        padding-left:16px;
+    }
+}
+@media (max-width:800px) {
+    .homeListSlider .owl-nav .owl-prev, 
+	.homeListSlider .owl-nav .owl-next{display:none;}
+	.homeListSlider .owl-carousel{padding:0;}
+}
+@media (max-width:599px) {
+   .creatAcForm{padding:34px 20px;}
+   .accountLogo{width:200px;}
+}
